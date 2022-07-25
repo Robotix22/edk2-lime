@@ -10,11 +10,11 @@ Can Boot into UEFI Shell
 
 ## Working
 
-Display
+- Display
 
 ## Not Working
 
-...
+- USB
 
 ## Building
 
