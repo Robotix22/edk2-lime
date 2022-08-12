@@ -206,21 +206,6 @@ READ_LOCK_STATUS   = TRUE
       SECTION UI = "ClockDxe"
     }
 
-    INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
-    INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
-
-    FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
-      SECTION DXE_DEPEX = Dxe/SdccDxe/SdccDxe.depex
-      SECTION PE32 = Dxe/SdccDxe/SdccDxe.efi
-      SECTION UI = "SdccDxe"
-    }
-
-    FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
-      SECTION DXE_DEPEX = Dxe/UFSDxe/UFSDxe.depex
-      SECTION PE32 = Dxe/UFSDxe/UFSDxe.efi
-      SECTION UI = "UFSDxe"
-    }
-
     INF FatPkg/EnhancedFatDxe/Fat.inf
     INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
     INF MdeModulePkg/Universal/FvSimpleFileSystemDxe/FvSimpleFileSystemDxe.inf
@@ -262,6 +247,21 @@ READ_LOCK_STATUS   = TRUE
       SECTION DXE_DEPEX = Dxe/AdcDxe/AdcDxe.depex
       SECTION PE32 = Dxe/AdcDxe/AdcDxe.efi
       SECTION UI = "AdcDxe"
+    }
+
+    INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
+    INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
+
+    FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
+      SECTION DXE_DEPEX = Dxe/SdccDxe/SdccDxe.depex
+      SECTION PE32 = Dxe/SdccDxe/SdccDxe.efi
+      SECTION UI = "SdccDxe"
+    }
+
+    FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
+      SECTION DXE_DEPEX = Dxe/UFSDxe/UFSDxe.depex
+      SECTION PE32 = Dxe/UFSDxe/UFSDxe.efi
+      SECTION UI = "UFSDxe"
     }
 
     FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
@@ -502,21 +502,6 @@ READ_LOCK_STATUS   = TRUE
     SECTION PE32 = Dxe/ClockDxe/ClockDxe.patched.efi
     SECTION UI = "ClockDxe"
   }
-  
-  INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
-  INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
-
-  FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
-    SECTION DXE_DEPEX = Dxe/SdccDxe/SdccDxe.depex
-    SECTION PE32 = Dxe/SdccDxe/SdccDxe.efi
-    SECTION UI = "SdccDxe"
-  }
-
-  FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
-    SECTION DXE_DEPEX = Dxe/UFSDxe/UFSDxe.depex
-    SECTION PE32 = Dxe/UFSDxe/UFSDxe.efi
-    SECTION UI = "UFSDxe"
-  }
 
   INF FatPkg/EnhancedFatDxe/Fat.inf
   INF MdeModulePkg/Universal/Disk/UnicodeCollation/EnglishDxe/EnglishDxe.inf
@@ -551,6 +536,21 @@ READ_LOCK_STATUS   = TRUE
     SECTION DXE_DEPEX = Dxe/AdcDxe/AdcDxe.depex
     SECTION PE32 = Dxe/AdcDxe/AdcDxe.efi
     SECTION UI = "AdcDxe"
+  }
+
+  INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
+  INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
+
+  FILE DRIVER = f10f76db-42c1-533f-34a8-69be24653110 {
+    SECTION DXE_DEPEX = Dxe/SdccDxe/SdccDxe.depex
+    SECTION PE32 = Dxe/SdccDxe/SdccDxe.efi
+    SECTION UI = "SdccDxe"
+  }
+
+  FILE DRIVER = 0d35cd8e-97ea-4f9a-96af-0f0d89f76567 {
+    SECTION DXE_DEPEX = Dxe/UFSDxe/UFSDxe.depex
+    SECTION PE32 = Dxe/UFSDxe/UFSDxe.efi
+    SECTION UI = "UFSDxe"
   }
 
   FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
@@ -635,5 +635,8 @@ READ_LOCK_STATUS   = TRUE
   }
 
 !include limePkg/CommonFdf.fdf.inc
+
+
+
 
 
