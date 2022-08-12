@@ -266,7 +266,7 @@ READ_LOCK_STATUS   = TRUE
 
     FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
       SECTION DXE_DEPEX = Dxe/ButtonsDxe/ButtonsDxe.depex
-      SECTION PE32 = Dxe/ButtonsDxe/ButtonsDxe.patched.efi
+      SECTION PE32 = Dxe/ButtonsDxe/ButtonsDxe.efi
       SECTION UI = "ButtonsDxe"
     }
 
@@ -555,7 +555,7 @@ READ_LOCK_STATUS   = TRUE
 
   FILE DRIVER = 5bd181db-0487-4f1a-ae73-820e165611b3 {
     SECTION DXE_DEPEX = Dxe/ButtonsDxe/ButtonsDxe.depex
-    SECTION PE32 = Dxe/ButtonsDxe/ButtonsDxe.patched.efi
+    SECTION PE32 = Dxe/ButtonsDxe/ButtonsDxe.efi
     SECTION UI = "ButtonsDxe"
   }
 
