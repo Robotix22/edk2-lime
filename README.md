@@ -12,11 +12,11 @@ Can Boot into UEFI Shell
 
 - Display
 - SimpleFbDxe
+- Buttons (SimpleInit only)
 
 ## Not Working
 
 - USB
-- Buttons
 
 ## Building
 
