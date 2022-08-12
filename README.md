@@ -11,10 +11,12 @@ Can Boot into UEFI Shell
 ## Working
 
 - Display
+- SimpleFbDxe
 
 ## Not Working
 
 - USB
+- Buttons
 
 ## Building
 
@@ -23,9 +25,10 @@ You need to clone these repositories
 ```bash
 git clone https://github.com/Robotix22/edk2-lime.git
 git clone https://github.com/tianocore/edk2.git --recursive
+git clone https://github.com/BigfootACA/simple-init.git --recursive
 git clone https://github.com/tianocore/edk2-platforms.git
 ```
-You should have all three directories side by side.
+You should have all four directories side by side.
 
 Now Install needed Packages
 
@@ -39,7 +42,6 @@ Now you can build the UEFI Image by doing
 
 ```bash
 cd edk2-lime
-./firstrun.sh
 ./build.sh
 ```
 
@@ -53,8 +55,6 @@ fastboot flash recovery boot-lime.img
 
 ## Credits
 
-This is based on `edk2-sdm845` from `edk2-porting`
+This is based on `edk2-lavender` from `dreemurrs-embedded`
 
 Thanks to `Xhelowrk` for Testing
-
-SimpleFbDxe is based on `NintendoSwitchPkg` from `imbushuo`
