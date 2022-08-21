@@ -13,6 +13,9 @@ Can Boot into UEFI Shell
 - Display
 - SimpleFbDxe
 - Buttons (SimpleInit only)
+
+## Doesn't work properly
+
 - Clocks
 
 ## Not Working
