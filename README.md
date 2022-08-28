@@ -6,7 +6,7 @@
 
 ## Status
 
-Can Boot into UEFI Shell
+Can boot and use SimpleInit
 
 ## Working
 
@@ -20,6 +20,7 @@ Can Boot into UEFI Shell
 
 ## Not Working
 
+- UFS
 - USB
 
 ## Building
