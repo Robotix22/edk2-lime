@@ -1,4 +1,4 @@
-# EDK2 UEFI Firmware For Xiaomi Redmi 9T
+# EDK2 UEFI Firmware For Xiaomi Redmi 9T (Poco M3)
 
 ## Resources
 
