@@ -143,9 +143,13 @@
   #
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvModeEnable|TRUE
 
-  glimeTokenSpaceGuid.PcdMipiFrameBufferAddress|0x5c000000
+  glimeTokenSpaceGuid.PcdMipiFrameBufferHeaderAddress|0x5C000000
+  glimeTokenSpaceGuid.PcdMipiFrameBufferAddress|0x5C03F480
+  glimeTokenSpaceGuid.PcdMipiFrameBufferFooterAddress|0x5C964B00
+
   glimeTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  glimeTokenSpaceGuid.PcdMipiFrameBufferHeight|2340
+  glimeTokenSpaceGuid.PcdMipiFrameBufferHeight|2220
+  glimeTokenSpaceGuid.PcdMipiFrameBufferDelay|0.5
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdAcpiExposedTableVersions|0x20
 
