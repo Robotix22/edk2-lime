@@ -1,9 +1,8 @@
 [Defines]
   INF_VERSION    = 0x00010005
-  FILE_GUID      = 33220897-2430-1CD5-EA89-CB01B138CF39
   BASE_NAME      = FrameBufferSerialPortLib
   MODULE_TYPE    = BASE
-  VERSION_STRING = 1.1
+  VERSION_STRING = 1.0
   LIBRARY_CLASS  = SerialPortLib
 
 [Sources.common]
@@ -15,15 +14,19 @@
   limePkg/lime.dec
 
 [LibraryClasses]
+  BaseLib
   ArmLib
   PcdLib
   IoLib
   HobLib
   CompilerIntrinsicsLib
   CacheMaintenanceLib
+  TimerLib
 
 [Pcd]
   glimeTokenSpaceGuid.PcdMipiFrameBufferAddress
+  glimeTokenSpaceGuid.PcdMipiFrameBufferHeaderAddress
+  glimeTokenSpaceGuid.PcdMipiFrameBufferFooterAddress
   glimeTokenSpaceGuid.PcdMipiFrameBufferWidth
   glimeTokenSpaceGuid.PcdMipiFrameBufferHeight
   glimeTokenSpaceGuid.PcdMipiFrameBufferPixelBpp
