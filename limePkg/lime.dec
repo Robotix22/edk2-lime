@@ -36,9 +36,13 @@
 
 [PcdsFixedAtBuild.common]
   # Simple FrameBuffer
-  glimeTokenSpaceGuid.PcdMipiFrameBufferAddress|0x00400000|UINT32|0x0000a400
-  glimeTokenSpaceGuid.PcdMipiFrameBufferWidth|1080|UINT32|0x0000a401
-  glimeTokenSpaceGuid.PcdMipiFrameBufferHeight|2340|UINT32|0x0000a402
-  glimeTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a403
-  glimeTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a404
-  glimeTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2340|UINT32|0x0000a405
+  glimeTokenSpaceGuid.PcdMipiFrameBufferAddress|0x5C000000|UINT32|0x0000a400
+  glimeTokenSpaceGuid.PcdMipiFrameBufferHeaderAddress|0x5C000000|UINT32|0x0000a401
+  glimeTokenSpaceGuid.PcdMipiFrameBufferFooterAddress|0x5C000000|UINT32|0x0000a402
+  glimeTokenSpaceGuid.PcdMipiFrameBufferWidth|1080|UINT32|0x0000a403
+  glimeTokenSpaceGuid.PcdMipiFrameBufferHeight|2340|UINT32|0x0000a404
+  
+  glimeTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a405
+  glimeTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a406
+  glimeTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2340|UINT32|0x0000a407
+  glimeTokenSpaceGuid.PcdMipiFrameBufferDelay|0|UINT32|0x0000a408
