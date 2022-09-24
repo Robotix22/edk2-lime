@@ -93,7 +93,7 @@ SerialPortInitialize
 
 	ResetFbHeader();
 	ResetFbFooter();
-	UpdateHeader(L"EDK2 RedmiNote7Pkg by SERDELIUK",1);
+	UpdateHeader(L"EDK2 limePkg by Robotix22",1);
 //	    MicroSecondDelay( delay/3 ); 
 //	UpdateHeader(L"    by SERDELIUK ",1);
 //	    MicroSecondDelay( delay/3 ); 
