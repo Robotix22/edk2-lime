@@ -1,5 +1,8 @@
 # EDK2 UEFI Firmware For Xiaomi Redmi 9T (Poco M3)
 
+## Note
+
+I am not working on this repo anymore. But I am working on a MU Port ;)
 ## Resources
 
 [Discord Server](https://discord.gg/Gb4KAqAQdm)
