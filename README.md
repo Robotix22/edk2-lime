@@ -2,7 +2,8 @@
 
 ## Note
 
-I am not working on this repo anymore. But I am working on a MU Port ;)
+I am not working on this repo anymore. The MU Port for this Device is [here](https://github.com/Robotix22/MU-lime)
+
 ## Resources
 
 [Discord Server](https://discord.gg/Gb4KAqAQdm)
